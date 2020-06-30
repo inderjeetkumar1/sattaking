@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 30 Jun 2020 19:04:43 at https://www.satta-kingz.in/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.satta-kingz.in/ -O1 "C:\Users\Administrator\Desktop\new site\satta" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+19:05:09	Error: 	"Not Found" (404) at link https://www.satta-kingz.in/fonts/css/bootstrap.min.css (from https://www.satta-kingz.in/fonts/glyphicons-halflings-regular.html)
+19:05:09	Error: 	"Not Found" (404) at link https://www.satta-kingz.in/fonts/index.php (from https://www.satta-kingz.in/fonts/glyphicons-halflings-regular.html)
+19:05:09	Error: 	"Not Found" (404) at link https://www.satta-kingz.in/fonts/all-game-record-chart.php (from https://www.satta-kingz.in/fonts/glyphicons-halflings-regular.html)
+19:05:09	Error: 	"Not Found" (404) at link https://www.satta-kingz.in/fonts/member/index.php (from https://www.satta-kingz.in/fonts/glyphicons-halflings-regular.html)
+19:05:09	Error: 	"Not Found" (404) at link https://www.satta-kingz.in/fonts/images/call.png (from https://www.satta-kingz.in/fonts/glyphicons-halflings-regular.html)
+19:05:09	Error: 	"Not Found" (404) at link https://www.satta-kingz.in/fonts/images/arrow.gif (from https://www.satta-kingz.in/fonts/glyphicons-halflings-regular.html)
+19:05:09	Error: 	"Not Found" (404) at link https://www.satta-kingz.in/fonts/images/www.gif (from https://www.satta-kingz.in/fonts/glyphicons-halflings-regular.html)
+19:05:09	Error: 	"Not Found" (404) at link https://www.satta-kingz.in/fonts/js/jquery.min.js (from https://www.satta-kingz.in/fonts/glyphicons-halflings-regular.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 26 seconds : 45 links scanned, 36 files written (1033016 bytes overall) [317710 bytes received at 12219 bytes/sec], 895066 bytes transferred using HTTP compression in 37 files, ratio 17%, 7.8 requests per connection
+(8 errors, 0 warnings, 0 messages)

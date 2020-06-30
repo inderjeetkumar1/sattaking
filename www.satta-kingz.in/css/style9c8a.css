@@ -1,0 +1,252 @@
+* {
+    font-family: inherit !important;
+}
+
+body {
+    background-color: black !important;
+    color: white;
+   
+	}
+
+a {
+    color: white;
+	text-decoration:none;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 15px;
+    text-align: center;
+}
+p {
+    margin: 0 0 0px;
+	font-family: inherit;
+}
+
+.liveresult{
+	text-align:center;
+	padding:10px 10px 30px 10px;
+}
+.sattaname{
+	color: #00fff9;
+    font-size: 30px;
+    font-weight: 700;
+}
+.sattaresult{
+	color: #CEF6F5;
+    font-size: 30px;
+    font-weight: 700;
+margin-top: 3px
+}
+.sattaresult font {
+    background: white;
+    color: red;
+    line-height: 58px;
+    border-radius: 60px;
+    padding: 13px;
+}
+
+.content{
+	background-color: lightyellow; 
+	font-weight: bold; 
+	border-width: 3px; 
+	border-color:red; 
+	border-style: outset; 
+	padding: 9px; 
+	border-radius: 10px; 
+	text-align: center;
+}
+.content p{
+	color:#000;
+	text-align:justify;
+	font-size:15px;
+	
+}
+.content h3{
+	color:#000;
+	font-size:20px;
+	margin:8px;
+	font-weight:bold
+}
+.content a{
+	color:red;
+	text-decoration:none;
+}
+.footer{
+	background-color: #5f0707;
+    padding: 5px;
+    border: 2px solid #FFF;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.footer p{
+	font-size:20px;
+	color:#FFF;
+	margin:0px;
+}
+.footer a{
+	color:yellow;
+	font-weight:bold;
+	text-decoration:none;
+	font-size:15px;
+}
+
+.chat {
+  position: fixed;
+  bottom: 4px;
+  right: 60px;
+  margin-top: -50px;
+  margin-right: -50px;
+  height: 70px;
+  width: 70px;
+  border:2px solid lime;
+  background: url(../images/chat.png);
+  background-size: contain;
+  border-radius: 1000px;
+  transform: scale(0);
+  opacity: 0;
+  transition-duration: 0;
+  transition-timing-function: cubic-bezier(0.005, 0.95, 0.135, 1.205);
+}
+.chat .notification {
+  position: absolute;
+  top: -10;
+  left: 0;
+  color: #FFF;
+  border: 3px solid #FFF;
+  background: #E80202;
+  height: 25px;
+  width: 25px;
+  border-radius: 1000px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 12px;
+  opacity: 0;
+  transform: scale(0);
+  transition-timing-function: cubic-bezier(0.005, 0.95, 0.135, 1.205);
+}
+
+
+.anim-start .chat {
+  opacity: 1;
+  transform: none;
+  transition-duration: .3s;
+}
+
+.anim-start .chat .notification {
+  opacity: 1;
+  transform: none;
+  transition-duration: .3s;
+  transition-delay: .6s;
+}
+.chat-header{
+	background-color:green;
+}
+.chat-footer{
+	background-color:#FFF;
+	border:2px solid green; 
+}
+.chat-close{
+	padding: 25px;
+    color: #FFF;
+    font-size: 25px;
+}
+.button5 {
+    background-color: green;
+    border: 1 px solid grey;
+    color: #FFF;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+}
+.nav_tbl{
+	width:100%;
+	
+}
+
+.nav_tbl td{
+	background-color:#000;
+	text-align:center;
+	padding:8px
+}
+.nav_tbl a{
+	color:#FFF;
+	text-decoration:none;
+	font-weight: bold;
+}
+.king_scroll{
+	font-size:15px; 
+	color:yellow;
+	font-weight:bold
+}
+.enter1{
+         background-color: lightyellow;
+         text-align: center;
+         font-size: 23px;
+         border-radius: 25px;
+         }
+.enter1 h1{
+         margin-top: 4px; 
+		 margin-bottom: 5px; 
+		 font-size:15px; 
+		 color:#0f0f54; 
+		 font-weight:bold
+         }
+.enter1 a{
+         font-size:21px;
+		 color:red;
+		 font-weight:bold
+         }	
+.chart_head{
+	color:#000; 
+	font-size:23px;
+	font-weight:bold;
+	text-transform:uppercase;
+	margin:0px
+}	
+
+
+.tab { width:100% }
+.top .tab td,
+ th { color:#FFF}
+ td { border:1px solid #000;}
+.tab td { text-align:center; font-size:15px; padding: 2px; }
+.tabb { background-color:#3e2964; font-weight:700 }
+.tabb a { line-height:36px; font-size: medium; }
+.td0 { background-color:#fff; padding-top:2px; padding-bottom:2px; font-weight:bold }
+
+.td1 { background:#72080f }
+.tr0 { color:#fff; background-color: red }
+.tr1 { background-color:#336666; }
+.tr2 { background-color:#FFF; color:#000; border: 1px solid #000;}
+.tr2bold { background-color:#53359a;font-size: 16px; }
+.tr3 { background-color:#9e2e8a }
+.result {font-size:13px; color:red;font-weight:bold}
+
+.cht_link
+{
+	background-color: #FFF; border-style: double; border-color: #990033; text-align:center; padding: 5px 0px 5px 0px;
+	
+}
+.cht_link a{
+	color:red;
+	font-size:15px;
+	text-decoration:none;
+	font-weight:bold
+}
+.ONLINE{
+	padding:3px;
+	border:1px solid yellow;
+}
+.bottom_ad{
+	width:100%;
+	background-color:#ffebcd;
+	padding:6px;
+	text-align:center;
+	border:2px solid #000;
+}
+	 
